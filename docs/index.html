@@ -22,13 +22,59 @@
       subMaxLevel: 2,
 
       auto2top: true,
+
+      search: 'auto',
+      search : [
+        '/',            // => /README.md
+        '/logs/1',
+        '/logs/2',
+        '/logs/3',
+        '/logs/4',
+        '/logs/5',
+        '/logs/6',
+        '/logs/7',
+        '/logs/8',
+        '/logs/9',
+        '/logs/10',
+        '/logs/11',
+        '/logs/12',
+        '/logs/13',
+        '/logs/14',
+        '/logs/15',
+        '/logs/16',
+        '/logs/17',
+        '/logs/18',
+        '/logs/19',
+        '/logs/20',
+        '/logs/21',
+        '/logs/22',
+        '/logs/23',
+        '/logs/24',
+        '/logs/25',
+        '/logs/26',
+        '/logs/27',
+        '/logs/28',
+        '/logs/29',
+        '/logs/30',
+        '/logs/31',
+        '/logs/32',
+        '/logs/33',
+        '/logs/34',
+      ],
+
+      search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto',
+        placeholder: '想要了解什么？',
+        noData: '找不到哦',
+        depth: 6
+      }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 
 </body>
 </html>

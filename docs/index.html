@@ -17,7 +17,7 @@
       // sidebar
       loadSidebar: true,
       alias: {
-      '/.*/_sidebar.md': '/_sidebar.md'
+        '/.*/_sidebar.md': '/_sidebar.md'
       },
       subMaxLevel: 2,
 
@@ -78,6 +78,7 @@
 
       count:{
         countable:true,
+        float: 'top',
         fontsize:'0.9em',
         color:'rgb(90,90,90)',
         language:'chinese'
@@ -93,6 +94,7 @@
         prefix: '',     // title prefix.
         suffix: '1918 Weekly',
       },
+
     }
   </script>
   <!-- Docsify v4 -->
@@ -118,5 +120,25 @@
   <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-title@2.x/dist/plugin.min.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/docsify-pagination-keyboard-helper/dist/bundle.js"></script>
+
+  <script src="//cdn.jsdelivr.net/gh/LIGMATV/docsify-dark-switcher@latest/docsify-dark-switcher.js"></script>
+
+  <style>
+    :root {
+      --dark-base-background: #222;
+      --dark-base-color: #bbc0c4;
+      --dark-theme-color: var(--theme-color, #42b983);
+      --dark-code-color: var(--dark-color);
+      --dark-heading-color: var(--dark-theme-color);
+      --dark-cover-background: #000000a8;
+      --dark-code-background: #303030;
+      --dark-tip-background: #2c0000;
+      --dark-warn-background: #005842;
+      --dark-icon-size: 25px;
+      --dark-icon-transition: .1s ease-in-out .1s;
+      --dark-moon-color: #000000;
+      --dark-sun-color: #ffffff;
+    }
+  </style>
 </body>
 </html>
